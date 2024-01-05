@@ -8,8 +8,10 @@ const VideoCard = (props: any) => {
         </div>
         <div className="col-span-10 pt-2">
           <div className="text-2xl font-black">
+            {props.title}
           </div>
-          <div className="text-lg "></div>
+          <div className="text-lg text-grey-400">{props.channel}</div>
+          <div className="text-lg text-grey-400">{props.views} | {props.old}</div>
         </div>
       </div>
     </div>

@@ -5,4 +5,3 @@ const Appbar = () => {
 }
  
 export default Appbar;
-<div></div>

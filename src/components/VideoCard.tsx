@@ -1,6 +1,6 @@
 const VideoCard = (props: any) => {
   return (
-    <div>
+    <div className="flex flex-col">
       <img src={props.thumb} className="rounded-3xl" />
       <div className="grid grid-cols-12">
         <div className="col-span-2">

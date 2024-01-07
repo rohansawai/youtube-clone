@@ -24,18 +24,10 @@ const videos = [
     views: "100k",
     old: "2 days ago",
   },
-  {
-    thumb: "/thubm.png",
-    logo: "/logo.png",
-    title: "Lets Watch how city beats united in this thriller game",
-    channel: "Premier League",
-    views: "100k",
-    old: "2 days ago",
-  },
 ];
 const VideoGrid = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       {videos.map((video) => (
         <div>
           <VideoCard
